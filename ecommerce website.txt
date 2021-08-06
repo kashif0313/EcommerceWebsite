@@ -1,0 +1,7 @@
+E-commmerce website with following functions
+Login / Register pages with email verification 
+User panel editable 
+Admin Panel with stock info , dilivery , discount info 
+filters like sorting by price  , by name , by price range 
+cart
+ 
