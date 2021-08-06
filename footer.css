@@ -1,0 +1,190 @@
+body,html
+{
+	margin:0;
+}
+.Footer_container
+{
+	position:relative;
+	height:auto;
+	width:100%;
+	left:0%;
+	justify-content:center;
+	text-align:center;
+	background:rgba(100,100,100,0.1);
+	display:flex;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+.Footer_title
+{
+		color:rgba(100,100,100,0.8);
+		font-size:1.2vw;
+		justify-content:center;
+		text-align:center;
+		
+}
+.Footer_img
+{
+	height:80px;
+	width:auto;
+	position:relative;
+	display:block;
+	left:2%;
+	margin-top:3%;
+	
+}.Footer_bottom
+{
+		background:black;
+		color:white;
+		font-size:1vw;
+		justify-content:center;
+		text-align:center;
+		padding-top:1%;
+		padding-bottom:1%;
+}
+
+.footer_Content_container
+{
+	position:relative;
+	flex:1;
+	max-width:20%;
+	margin-left:3%;
+	background:transparent;
+	border-radius:30px;
+	padding:10;
+	font-size:1.2vw;
+	margin-bottom:1%;
+	color:rgba(100,100,100,0.8);
+}
+.Content_Heading
+{
+	position:relative;
+	font-size:1.6vw;
+	color:rgba(100,100,100,0.8);
+	top:0px;
+	left:0;
+	text-align:center;
+	display:inline-block;
+}
+.social_img
+{
+	height:40px;
+	width:40px;
+	background:blue;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+	background:white;
+	border-radius:20px;
+	background-size:100%;
+	cursor:pointer;
+}.social_img1
+{
+	height:40px;
+	width:40px;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:5%;
+	background:white;
+	border-radius:20px;
+	background-size:100%;
+}
+.contact_info
+{
+	position:relative;
+	display:inline-block;
+	font-size:1.2vw;
+	color:rgba(100,100,100,0.8);
+}
+#facebook
+{
+	background:white;
+	border-radius:20px;
+	background-size:100%;
+}
+#gmail
+{
+	background:white;
+	border-radius:20px;
+	background-size:100%;
+}
+#instagram
+{
+	background:white;
+	border-radius:20px;
+	background-size:100%;
+}
+#YT
+{
+	background-size:120%;
+}
+@media only screen and (max-width: 1100px) 
+{
+	.footer_content
+{
+	display:block;
+}
+.Footer_container
+{
+	display:block;
+	justify-content:center;
+	text-align:center;
+}
+.footer_Content_container
+{
+	max-width:100%;
+	font-size:3vw;
+	margin-bottom:2%;
+	color:black;
+}
+	.social_img1
+{
+	height:35px;
+	width:35px;
+	display:inline-block;
+	margin-left:0%;
+	margin-bottom:2%;
+}
+.Footer_title
+{
+	font-size:3.5vw;
+	font-weight:bold;	
+}
+.contact_info
+{
+	font-size:3vw;
+	color:black;
+	display:block;
+	text-align:center;
+	justify-content:center;
+}
+.social_img
+{
+	height:30px;
+	width:30px;
+	padding:2%;
+	margin-left:3%;
+	margin-right:3%;
+}
+.Footer_img
+{
+	height:80px;
+	width:auto;
+	position:relative;
+	display:inline-block;
+	justify-content:center;
+	text-align:center;
+	left:0%;
+}
+
+.Content_Heading
+{
+	position:relative;
+	font-size:3.3vw;
+	font-weight:bold;
+}
+.Footer_bottom
+{
+		font-size:2vw;
+}
+}

@@ -1,0 +1,339 @@
+body,html
+{
+	margin:0;
+}
+.container
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	border:2px solid black;
+	text-align:center;
+	justify-content:center;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.title
+{
+	position:relative;
+	display:block;
+	font-size:1.2vw;
+}
+.upload_file
+{
+	display:inline-block;
+	position:relative;
+		padding-bottom:3%;
+	padding-top:3%;
+	padding-left:15%;
+	
+}
+.upload_container
+{
+	width:80%;
+	position:relative;
+	left:10%;
+	border-top:4px solid black;
+	border-right:4px solid black;
+	border-left:4px solid black;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+.imagesupload
+{
+	position:relative;
+	display:inline-block;
+	width:20%;
+	margin-top:2%;
+	margin-bottom:1%;
+}
+.imagespreview
+{
+	width:100%;
+	display:inline-block;
+	position:relative;
+	padding-bottom:1%;
+	padding-top:1%;
+	margin-top:3%;
+	margin-bottom:2%;
+	border:none;
+	justify-content:center;
+	text-align:center;
+}
+.preview
+{
+	position:relative;
+	height:auto;
+	width:350px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border:none;
+	outline:none;
+	justify-content:center;
+	text-align:center;
+	vertical-align:cenetr;
+}
+.PreviewImage
+{
+	height:250px;
+	width:350px;
+	position:relative;
+	display:inline-block;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:1vw;
+	text-align:center;
+}
+.content_container
+{
+	width:80%;
+	position:relative;
+	left:10%;
+	border-bottom:4px solid black;
+	border-right:4px solid black;
+	border-left:4px solid black;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	text-align:center;
+	justify-content:center;
+	padding-bottom:2%;
+	font-size:1.2vw;
+}
+.inputarea
+{
+	position:relative;
+	display:inline-block;
+	width:30%;
+	left:0%;
+	font-size:1vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	border:4px solid black;
+	border-radius:20px;
+	outline:none;
+	margin-right:3%;
+}
+.Radioarea
+{
+	position:relative;
+	width:38%;
+	left:0%;
+	padding:10px;
+	font-size:1.2vw;
+	display:inline-block;
+}.Radioarea1
+{
+	position:relative;
+	width:100%;
+	left:0%;
+	padding:10px;
+	font-size:1.2vw;
+	display:inline-block;
+}
+.Radiobtn
+{
+	border:2px solid black;
+	position:relative;
+	height:auto;
+	margin-left:2%;
+	margin-right:2%;
+	left:0%;
+	font-size:1.2vw;
+}.Radiobtn1
+{position:relative;
+	display:inline-block;
+	width:20%;
+	left:0%;
+	font-size:1vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:4px solid black;
+	border-radius:20px;
+	outline:none;
+	margin-right:3%;
+}
+
+.Product_disc
+{
+	resize:none;
+	position:relative;
+	display:inline-block;
+	width:80%;
+	left:0%;
+	font-size:1vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	border:4px solid black;
+	border-radius:20px;
+	outline:none;
+	height:30%;
+	
+}
+.discount_input
+{
+	position:relative;
+	display:inline-block;
+	width:20%;
+	font-size:1vw;
+	left:5%;
+}
+.UploadBtn
+{
+	position:relative;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:1.2vw;
+	border:none;
+	outline:none;
+	background:black;
+	color:white;
+	left:0%;
+}
+.Popup
+{
+	width:50%;
+	height:auto;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:5%;
+	padding-bottom:5%;
+	text-align:center;
+	justify-content:center;
+	background:white;
+	position:fixed;
+	top:40%;
+	left:25%;
+	font-size:1.5vw;
+	border-radius:30px;
+	z-index:4;
+	display:block;
+	border:1px solid black;
+}
+.overlay
+{
+	position:fixed;
+	background:rgba(100,100,100,0.5);
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:flex;
+	z-index:3;
+}
+.close_popup
+{
+	position:absolute;
+	display:block;
+	background:transparent;
+	font-size:1.5vw;
+	color:black;
+	border:none;
+	z-index:3;
+	top:10%;
+	left:90%;
+	outline:none;
+}
+.close_popup:hover
+{
+	color:grey;
+}
+.errormsg1
+{
+	display:block;
+	font-size:1.5vw;
+	color:black;
+	
+}
+@media only screen and (max-width: 1100px) 
+{
+	.container
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	padding-top:25%;
+	padding-bottom:12%;
+}
+
+.preview
+{
+	width:100px;
+	height:100px;
+	object-fit:contain;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.PreviewImage
+{
+	height:150px;
+	width:180px;
+	position:relative;
+	display:block;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:1vw;
+	text-align:center;
+}
+.inputarea
+{
+	border:1px solid black;
+	font-size:2.5vw;
+	display:block;
+	width:80%;
+		margin-top:10px;
+	margin-bottom:10px;
+	left:10%;
+}
+.content_container
+{
+	font-size:2vw;
+}
+.Radiobtn1
+{
+	width:80%;
+	font-size:2vw;
+	border:1px solid black;
+	display:block;
+	justify-content:cenetr;
+}.Radiobtn
+{
+	font-size:2vw;
+	display:inline;
+}.Radioarea
+{
+	display:inline;
+	font-size:2vw;
+}.discount_input
+{
+	font-size:2vw;
+}
+.Radioarea1
+{
+	justify-content:center;
+	text-align:center;
+	font-size:2vw;
+}
+.Product_disc
+{
+	border:1px solid black;
+	height:10%;
+	font-size:2.5vw;
+}
+.UploadBtn
+{
+	font-size:2.5vw;
+}
+}

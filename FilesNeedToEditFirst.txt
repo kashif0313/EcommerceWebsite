@@ -1,0 +1,7 @@
+files need to be editied before website can fully work
+1. stockinformation.php (edit username, password and addAddress values)
+2. adminrecipt.php (edit username, password and addAddress values)
+3. email.php (edit username, password and addAddress values)
+4. emailActivation.php (edit username, password and addAddress values)
+5. forgotPassword.php (edit username, password , addAddress values and $FinalCode)
+6. guestRecipt.php (edit username, password and addAddress values)
